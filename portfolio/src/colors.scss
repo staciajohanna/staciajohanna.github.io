@@ -1,0 +1,22 @@
+@import '~@angular/material/theming';
+@include mat-core();
+
+$chocolate: (
+    default: #844D36,
+);
+
+$dark-gray: (
+    default: #474853,
+);
+
+$light-blue: (
+    default: #86B3D1,
+);
+
+$beige: (
+    default: #AAA0A0,
+);
+
+$olive: (
+    default: #8E8268,
+);
