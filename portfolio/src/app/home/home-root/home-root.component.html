@@ -1,0 +1,14 @@
+<div class="top-menu">
+    <button mat-button> Logo </button>
+    <div class="top-menu-right">
+        <button mat-button> About </button>
+        <button mat-button [matMenuTriggerFor]="experience"> Experience </button>
+        <mat-menu #experience="matMenu">
+            <button mat-menu-item> Industry </button>
+            <button mat-menu-item> Research </button>
+            <button mat-menu-item> School Project </button>
+        </mat-menu>
+        <button mat-button> Extracurricular </button>
+        <button mat-button> Misc </button>
+    </div>
+</div>

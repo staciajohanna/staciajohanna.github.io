@@ -1,0 +1,14 @@
+@import '../../../colors.scss';
+
+.top-menu {
+    background-color: $dark-gray;
+    color: $beige;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.top-menu-right {
+    display: flex;
+    height: 100%;
+}
