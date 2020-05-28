@@ -1,0 +1,8 @@
+@import '../../../colors.scss';
+
+.home-industry {
+    background-color: $chocolate;
+    display: flex;
+    flex-flow: row;
+    height: 400px;
+}
