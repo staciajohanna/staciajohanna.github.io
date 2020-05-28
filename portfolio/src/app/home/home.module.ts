@@ -5,9 +5,10 @@ import { HomeRootComponent } from './home-root/home-root.component';
 
 import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
+import { HomeBannerComponent } from './home-banner/home-banner.component';
 
 @NgModule({
-  declarations: [HomeRootComponent],
+  declarations: [HomeRootComponent, HomeBannerComponent],
   imports: [
     CommonModule,
 

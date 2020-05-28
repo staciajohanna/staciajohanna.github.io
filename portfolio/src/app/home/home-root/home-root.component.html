@@ -4,11 +4,12 @@
         <button mat-button> About </button>
         <button mat-button [matMenuTriggerFor]="experience"> Experience </button>
         <mat-menu #experience="matMenu">
-            <button mat-menu-item> Industry </button>
-            <button mat-menu-item> Research </button>
-            <button mat-menu-item> School Project </button>
+            <button mat-menu-item class="top-menu-item"> Industry </button>
+            <button mat-menu-item class="top-menu-item"> Research </button>
+            <button mat-menu-item class="top-menu-item"> School Project </button>
         </mat-menu>
         <button mat-button> Extracurricular </button>
         <button mat-button> Misc </button>
     </div>
 </div>
+<app-home-banner></app-home-banner>
