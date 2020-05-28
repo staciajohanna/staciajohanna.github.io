@@ -1,15 +1,15 @@
 <div class="top-menu">
     <button mat-button> Logo </button>
     <div class="top-menu-right">
-        <button mat-button> About </button>
-        <button mat-button [matMenuTriggerFor]="experience"> Experience </button>
+        <button mat-button class="top-menu-button"> About </button>
+        <button mat-button [matMenuTriggerFor]="experience" class="top-menu-button"> Experience </button>
         <mat-menu #experience="matMenu">
             <button mat-menu-item class="top-menu-item"> Industry </button>
             <button mat-menu-item class="top-menu-item"> Research </button>
             <button mat-menu-item class="top-menu-item"> School Project </button>
         </mat-menu>
-        <button mat-button> Extracurricular </button>
-        <button mat-button> Misc </button>
+        <button mat-button class="top-menu-button"> Extracurricular </button>
+        <button mat-button class="top-menu-button"> Misc </button>
     </div>
 </div>
 <app-home-banner></app-home-banner>

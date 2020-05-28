@@ -8,6 +8,10 @@
     justify-content: space-between;
 }
 
+.top-menu-button {
+    font-family: "Open Sans";
+}
+
 .top-menu-right {
     display: flex;
     height: 100%;
@@ -16,5 +20,6 @@
 .top-menu-item {
     background-color: $dark-gray;
     color: $beige;
+    font-family: "Open Sans";
     height: 100%;
 }

@@ -1,6 +1,15 @@
 @import '../../../colors.scss';
 
-.home-card {
+.banner-card {
+    align-items: center;
     background-color: $dark-gray;
-    height: 500px;
+    display: flex;
+    height: 400px;
+}
+
+.banner-name {
+    color: $beige;
+    font-family: "Open Sans";
+    font-size: 60px;
+    padding: 16px;
 }
