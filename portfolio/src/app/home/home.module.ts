@@ -5,6 +5,8 @@ import { HomeRootComponent } from './home-root/home-root.component';
 
 import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
+import {MatDividerModule} from '@angular/material/divider';
+
 import { HomeBannerComponent } from './home-banner/home-banner.component';
 import { HomeIndustryComponent } from './home-industry/home-industry.component';
 import { HomeEducationComponent } from './home-education/home-education.component';
@@ -16,6 +18,7 @@ import { HomeEducationComponent } from './home-education/home-education.componen
 
     MatButtonModule,
     MatMenuModule,
+    MatDividerModule,
   ],
   exports: [HomeRootComponent],
 })

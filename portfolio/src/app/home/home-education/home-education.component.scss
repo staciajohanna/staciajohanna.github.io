@@ -1,7 +1,18 @@
 @import '../../../colors.scss';
 
+.mat-divider {
+    border-top-color: $gray;
+}
+
 .education-top {
+    align-items: center;
     background-color: $dark-gray;
+    display: flex;
+    justify-content: center;
+}
+
+.top-inside {
+    color: $beige;
 }
 
 .home-education {
