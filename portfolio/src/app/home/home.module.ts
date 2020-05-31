@@ -11,9 +11,10 @@ import {MatIconModule} from '@angular/material/icon';
 import { HomeBannerComponent } from './home-banner/home-banner.component';
 import { HomeIndustryComponent } from './home-industry/home-industry.component';
 import { HomeEducationComponent } from './home-education/home-education.component';
+import { HomeSchoolComponent } from './home-school/home-school.component';
 
 @NgModule({
-  declarations: [HomeRootComponent, HomeBannerComponent, HomeIndustryComponent, HomeEducationComponent],
+  declarations: [HomeRootComponent, HomeBannerComponent, HomeIndustryComponent, HomeEducationComponent, HomeSchoolComponent],
   imports: [
     CommonModule,
 
