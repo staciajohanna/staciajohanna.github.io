@@ -34,3 +34,10 @@
     margin-right: 32px;
     text-align: justify;
 }
+
+.learn-more {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    width: 100%;
+}
