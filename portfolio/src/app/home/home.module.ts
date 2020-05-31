@@ -13,9 +13,11 @@ import { HomeIndustryComponent } from './home-industry/home-industry.component';
 import { HomeEducationComponent } from './home-education/home-education.component';
 import { HomeSchoolComponent } from './home-school/home-school.component';
 import { HomeSkillsComponent } from './home-skills/home-skills.component';
+import { HomeExtraComponent } from './home-extra/home-extra.component';
+import { HomeContactComponent } from './home-contact/home-contact.component';
 
 @NgModule({
-  declarations: [HomeRootComponent, HomeBannerComponent, HomeIndustryComponent, HomeEducationComponent, HomeSchoolComponent, HomeSkillsComponent],
+  declarations: [HomeRootComponent, HomeBannerComponent, HomeIndustryComponent, HomeEducationComponent, HomeSchoolComponent, HomeSkillsComponent, HomeExtraComponent, HomeContactComponent],
   imports: [
     CommonModule,
 

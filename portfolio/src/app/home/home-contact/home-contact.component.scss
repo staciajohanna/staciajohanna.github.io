@@ -1,0 +1,10 @@
+@import '../../../colors.scss';
+
+.home-contact {
+    align-items: center;
+    background-color: $dark-gray;
+    display: flex;
+    flex-flow: row;
+    height: 200px;
+    padding: 20px;
+}

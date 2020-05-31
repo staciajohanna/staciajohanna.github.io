@@ -1,7 +1,7 @@
 @import '../../../colors.scss';
 
-.skills-top {
-    background-color: $light-blue;
+.extra-top {
+    background-color: $olive;
     color: $dark-gray;
     display: flex;
     font-family: "Open Sans";
@@ -9,9 +9,9 @@
     padding-top: 12px;
 }
 
-.home-skills {
+.home-extra {
     align-items: center;
-    background-color: $light-blue;
+    background-color: $olive;
     display: flex;
     flex-flow: row;
     height: 300px;
