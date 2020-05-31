@@ -12,9 +12,10 @@ import { HomeBannerComponent } from './home-banner/home-banner.component';
 import { HomeIndustryComponent } from './home-industry/home-industry.component';
 import { HomeEducationComponent } from './home-education/home-education.component';
 import { HomeSchoolComponent } from './home-school/home-school.component';
+import { HomeSkillsComponent } from './home-skills/home-skills.component';
 
 @NgModule({
-  declarations: [HomeRootComponent, HomeBannerComponent, HomeIndustryComponent, HomeEducationComponent, HomeSchoolComponent],
+  declarations: [HomeRootComponent, HomeBannerComponent, HomeIndustryComponent, HomeEducationComponent, HomeSchoolComponent, HomeSkillsComponent],
   imports: [
     CommonModule,
 
