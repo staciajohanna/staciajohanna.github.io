@@ -4,7 +4,21 @@
     align-items: center;
     background-color: $dark-gray;
     display: flex;
-    flex-flow: row;
-    height: 200px;
+    flex-flow: column;
+    height: 100px;
     padding: 20px;
+}
+
+.contact-top {
+    color: $beige;
+}
+
+.social-medias {
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.social-media-button {
+    margin: 0px 0px 16px;
 }
