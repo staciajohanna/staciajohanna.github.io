@@ -6,6 +6,13 @@
     display: flex;
     height: 50px;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    font-family: "Open Sans";
 }
 
 .top-menu-button {
