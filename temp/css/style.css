@@ -506,8 +506,8 @@ ol {
 	left: 0;
 	top: 0;
 	z-index: 111;
-	padding-top: 40px;
-	padding-bottom: 20px;
+	padding-top: 8px;
+	padding-bottom: 4px;
 }
 
 .site-logo {
@@ -674,6 +674,7 @@ ol {
 }
 
 .hs-item {
+	background-color: var(--dark-gray);
 	min-height: 950px;
 	position: relative;
 	display: table;
@@ -687,11 +688,11 @@ ol {
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: #000;
 	opacity: 0.7;
 }
 
 .hs-item .hs-text {
+	color: #fff;
 	position: relative;
 	display: table-cell;
 	vertical-align: middle;
@@ -705,7 +706,7 @@ ol {
 	margin-bottom: 40px;
 	position: relative;
 	left: 150px;
-	opacity: 0;
+	opacity: 100;
 }
 
 .hs-item .hs-des {
