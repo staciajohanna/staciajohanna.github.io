@@ -1,9 +1,4 @@
-/* =================================
-------------------------------------
-  HALO - Photography Portfolio
-  Version: 1.0
- ------------------------------------ 
- ====================================*/
+@import './colors.css';
 
 /*----------------------------------------*/
 /* Template default CSS
@@ -505,7 +500,8 @@ ol {
 	Header section
 -----------------------*/
 .header-section {
-	position: absolute;
+	background-color: var(--dark-gray);
+	position: fixed;
 	width: 100%;
 	left: 0;
 	top: 0;
