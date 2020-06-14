@@ -1001,7 +1001,7 @@ ol {
 	Footer section
 ----------------------*/
 .footer-section {
-	background: #0d0d0d;
+	background: var(--dark-gray);
 }
 
 .footer-section h2 {
