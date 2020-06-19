@@ -847,7 +847,10 @@ ol {
 	Milestones section
 -----------------------*/
 .milestones-section {
-	background: #222121;
+	align-items: center;
+	background: var(--olive);
+	display: flex;
+	flex-flow: column;
 }
 
 .milestones-section .fact-box .fact-content {
@@ -862,11 +865,21 @@ ol {
 .milestones-section .fact-box .fact-content i,
 .milestones-section .fact-box .fact-content h2,
 .milestones-section .fact-box .fact-content p {
-	color: #fff;
+	color: white;
+	margin-top: 20px;
 }
 
 .milestones-section .fact-box:last-child .fact-content:after {
 	display: none;
+}
+
+.skills-title {
+	color: white;
+	margin-bottom: 24px;
+}
+
+.skill-logos {
+	margin: 12px;
 }
 
 /*---------------------
