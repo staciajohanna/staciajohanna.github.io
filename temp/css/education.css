@@ -1,0 +1,50 @@
+@import './colors.css';
+
+/*-------------------
+Education Page
+---------------------*/
+
+.related-courses-section {
+	background-color: var(--olive);
+	color: white;
+	padding: 80px;
+}
+
+.related-courses-title {
+    color: var(--beige);
+}
+
+.row-courses {
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+.related-courses-sub {
+    color: var(--beige);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.course-item {
+    height: 200px;
+}
+
+.education-more {
+    background-color: var(--chocolate);
+    display: flex;
+}
+
+.activities-group {
+    display: flex;
+    flex-flow: column;
+    margin-left: 72px;
+}
+
+.activities-title {
+    color: var(--beige);
+    margin-bottom: 24px;
+}
+
+.education-more-title {
+    color: var(--beige);
+}
