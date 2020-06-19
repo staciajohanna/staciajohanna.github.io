@@ -87,7 +87,7 @@ ol {
 .sp-sub-title {
 	color: #868686;
 	font-size: 12px;
-	margin-bottom: 5px;
+	margin-bottom: 12px;
 	text-transform: uppercase;
 }
 
@@ -95,7 +95,7 @@ ol {
 	font-size: 30px;
 	font-weight: 700;
 	text-transform: uppercase;
-	margin-bottom: 45px;
+	margin-bottom: 32px;
 	letter-spacing: 6px;
 }
 
@@ -740,11 +740,17 @@ ol {
 	Intro section
 -----------------------*/
 .intro-text {
-	padding-top: 70px;
+	padding-top: 20px;
+	text-align: center;
 }
 
 .intro-text p {
-	margin-bottom: 50px;
+	margin-bottom: 20px;
+}
+
+.intro {
+	align-items: center;
+	display: flex;
 }
 
 /*---------------------
