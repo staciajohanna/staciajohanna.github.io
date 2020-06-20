@@ -4,6 +4,10 @@
 Education Page
 ---------------------*/
 
+.page-top-area {
+    background-color: var(--gray);
+}
+
 .related-courses-section {
 	background-color: var(--olive);
 	color: white;
