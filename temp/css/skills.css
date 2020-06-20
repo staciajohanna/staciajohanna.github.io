@@ -1,0 +1,49 @@
+@import './colors.css';
+
+.page-top-area {
+    background-color: var(--olive);
+}
+
+.skill-page-section {
+    background-color: var(--beige);
+	display: flex;
+	flex-flow: column;
+}
+
+.skills-title {
+    margin-left: 60px;
+    margin-bottom: 32px;
+}
+
+.skill-page-section .fact-box .fact-content i,
+.skill-page-section .fact-box .fact-content h2,
+.skill-page-section .fact-box .fact-content p {
+	color: white;
+	margin-top: 20px;
+}
+
+.language-section {
+    background: var(--chocolate);
+	display: flex;
+	flex-flow: column;
+}
+
+.language-title {
+    color: var(--beige);
+    margin-left: 60px;
+    margin-bottom: 32px;
+}
+
+.language-groups {
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.language-name {
+    color: var(--beige);
+    margin-top: 16px;
+}
+
+.language-level {
+    color: white;
+}
