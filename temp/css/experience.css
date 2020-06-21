@@ -1,0 +1,26 @@
+@import './colors.css';
+
+.industry-section {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.industry {
+    display: flex;
+    justify-items: center;
+    margin-bottom: 100px;
+}
+
+.industry-details {
+    padding-left: 32px;
+    text-align: left;
+}
+
+.intro-text {
+    padding-left: 20px;
+}
+
+.industry-logo {
+    margin: 12px;
+}
