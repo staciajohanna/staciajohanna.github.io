@@ -24,3 +24,13 @@
 .industry-logo {
     margin: 12px;
 }
+
+.pdf-group {
+    justify-content: center;
+    display: flex;
+}
+
+.pdf-viewer {
+    align-self: center;
+    margin-bottom: 32px;
+}
