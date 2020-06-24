@@ -7,7 +7,7 @@
 }
 
 .industry {
-    background-color: var(--olive);
+    background-color: var(--chocolate);
     color: var(--beige);
     display: flex;
     justify-items: center;
@@ -35,7 +35,7 @@
 }
 
 .research {
-    background-color: var(--chocolate);
+    background-color: var(--gray);
     color: var(--beige);
 }
 
