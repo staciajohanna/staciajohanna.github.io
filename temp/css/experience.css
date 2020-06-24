@@ -7,9 +7,44 @@
 }
 
 .industry {
+    background-color: var(--olive);
+    color: var(--beige);
     display: flex;
     justify-items: center;
-    margin-bottom: 100px;
+}
+
+.industry-subtitle {
+    color: var(--beige) !important;
+}
+
+.industry-title {
+    color: var(--beige);
+}
+
+.project {
+    background-color: var(--beige);
+    color: var(--dark-gray);
+}
+
+.project-subtitle {
+    color: var(--dark-gray) !important;
+}
+
+.project-title {
+    color: var(--dark-gray);
+}
+
+.research {
+    background-color: var(--chocolate);
+    color: var(--beige);
+}
+
+.research-subtitle {
+    color: var(--beige) !important;
+}
+
+.research-title {
+    color: var(--beige);
 }
 
 .industry-details {
@@ -33,4 +68,9 @@
 .pdf-viewer {
     align-self: center;
     margin-bottom: 32px;
+}
+
+.horizontal-line {
+    background-color: black;
+    height: 1px;
 }
