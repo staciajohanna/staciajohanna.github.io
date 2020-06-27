@@ -809,6 +809,15 @@ ol {
 	background-position: center center;
 }
 
+.portfolio-info h3 {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #fff;
+	z-index: 9;
+	position: relative;
+	margin-bottom: 10px;
+}
+
 .portfolio-info h5 {
 	letter-spacing: 2px;
 	text-transform: uppercase;

@@ -1,0 +1,6 @@
+@import './colors.css';
+
+.home-project-groups {
+    display: flex;
+    flex-flow: row;
+}
