@@ -28,3 +28,7 @@
     background-color: var(--beige);
     padding-bottom: 52px;
 }
+
+.dark-text {
+    color: black !important;
+}
