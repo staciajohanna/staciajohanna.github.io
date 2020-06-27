@@ -1,0 +1,14 @@
+@import './colors.css';
+
+.kca-photos {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.extra-link {
+    font-size: 14px;
+}
