@@ -1,14 +1,44 @@
 @import './colors.css';
 
+body {
+    overflow-x: auto;
+}
+
 .kca-photos {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 8px;
     width: 100%;
 }
 
 .extra-link {
     font-size: 14px;
+}
+
+.extra-section {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.extra {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    padding-left: 32px;
+    width: 100%;
+}
+
+.extra-details {
+    margin: 12px;
+    text-align: justify;
+}
+
+.extra-subtitle {
+    
+}
+
+.extra-title {
+
 }

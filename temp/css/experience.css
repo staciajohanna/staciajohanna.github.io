@@ -13,6 +13,11 @@
     justify-items: center;
 }
 
+.industry-details {
+    padding: 32px;
+    text-align: justify;
+}
+
 .industry-subtitle {
     color: var(--beige) !important;
 }
@@ -45,11 +50,6 @@
 
 .research-title {
     color: var(--beige);
-}
-
-.industry-details {
-    padding: 32px;
-    text-align: justify;
 }
 
 .intro-text {
