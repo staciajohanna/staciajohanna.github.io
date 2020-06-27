@@ -9,11 +9,13 @@ body {
     flex-flow: row;
     justify-content: space-around;
     margin-top: 8px;
+    margin-bottom: 20px;
     width: 100%;
 }
 
 .extra-link {
     font-size: 14px;
+    text-align: center;
 }
 
 .extra-section {
