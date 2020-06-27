@@ -4,3 +4,27 @@
     display: flex;
     flex-flow: row;
 }
+
+.portfolio-title {
+    height: 100px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.course-project-title {
+    background-color: var(--chocolate);
+    color: white;
+}
+
+.extra-title {
+    background-color: var(--gray);
+    color: white;
+}
+
+.industry-title {
+    background-color: var(--beige);
+}
+.industry-section {
+    background-color: var(--beige);
+    padding-bottom: 52px;
+}
