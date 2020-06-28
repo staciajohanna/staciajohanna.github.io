@@ -8,14 +8,21 @@ Education Page
     background-color: var(--gray);
 }
 
+.education-section {
+    background-color: var(--yellow);
+}
+.education-text {
+    color: var(--dark-green) !important;
+}
+
 .related-courses-section {
-	background-color: var(--olive);
+	background-color: var(--brown);
 	color: white;
 	padding: 80px;
 }
 
 .related-courses-title {
-    color: var(--beige);
+    color: var(--white);
 }
 
 .row-courses {
@@ -24,7 +31,7 @@ Education Page
 }
 
 .related-courses-sub {
-    color: var(--beige);
+    color: var(--white);
     font-size: 16px;
     font-weight: bolder;
 }
