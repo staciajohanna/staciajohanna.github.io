@@ -7,8 +7,8 @@
 }
 
 .industry {
-    background-color: var(--olive);
-    color: var(--beige);
+    background-color: var(--dark-green);
+    color: var(--white);
     display: flex;
     justify-items: center;
 }
@@ -19,37 +19,37 @@
 }
 
 .industry-subtitle {
-    color: var(--beige) !important;
+    color: var(--white) !important;
 }
 
 .industry-title {
-    color: var(--beige);
+    color: var(--white);
 }
 
 .project {
-    background-color: var(--beige);
-    color: var(--dark-gray);
+    background-color: var(--yellow);
+    color: var(--dark-green);
 }
 
 .project-subtitle {
-    color: var(--dark-gray) !important;
+    color: var(--dark-green) !important;
 }
 
 .project-title {
-    color: var(--dark-gray);
+    color: var(--dark-green);
 }
 
 .research {
-    background-color: var(--gray);
-    color: var(--beige);
+    background-color: var(--brown);
+    color: var(--white);
 }
 
 .research-subtitle {
-    color: var(--beige) !important;
+    color: var(--white) !important;
 }
 
 .research-title {
-    color: var(--beige);
+    color: var(--white);
 }
 
 .intro-text {
