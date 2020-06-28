@@ -1,11 +1,11 @@
 @import './colors.css';
 
 .page-top-area {
-    background-color: var(--olive);
+    background-color: var(--gray);
 }
 
 .skill-page-section {
-    background-color: var(--beige);
+    background-color: var(--yellow);
 	display: flex;
 	flex-flow: column;
 }
@@ -23,13 +23,13 @@
 }
 
 .language-section {
-    background: var(--chocolate);
+    background: var(--brown);
 	display: flex;
 	flex-flow: column;
 }
 
 .language-title {
-    color: var(--beige);
+    color: var(--white);
     margin-left: 60px;
     margin-bottom: 32px;
 }
@@ -40,7 +40,7 @@
 }
 
 .language-name {
-    color: var(--beige);
+    color: var(--white);
     margin-top: 16px;
 }
 
