@@ -857,7 +857,7 @@ ol {
 -----------------------*/
 .milestones-section {
 	align-items: center;
-	background: var(--olive);
+	background: var(--gray);
 	display: flex;
 	flex-flow: column;
 }

@@ -12,23 +12,44 @@
 }
 
 .course-project-title {
-    background-color: var(--chocolate);
+    background-color: var(--brown);
     color: white;
 }
 
 .extra-title {
-    background-color: var(--gray);
+    background-color: var(--yellow);
     color: white;
 }
 
 .industry-title {
-    background-color: var(--beige);
+    background-color: var(--dark-green);
+    color: var(--white);
+}
+.industry-subtitle {
+    color: var(--white);
+}
+.industry-details {
+    color: var(--white);
+    padding: 32px;
+    text-align: justify;
 }
 .industry-section {
-    background-color: var(--beige);
+    background-color: var(--dark-green);
     padding-bottom: 52px;
+}
+
+.education-section {
+    background-color: var(--yellow);
+}
+.education-text {
+    color: var(--dark-green);
 }
 
 .dark-text {
     color: black !important;
+}
+
+.horizontal-line {
+    background-color: black;
+    height: 1px;
 }
