@@ -1,3 +1,5 @@
+@import './colors.css';
+
 html {
     scroll-behavior: smooth;
 }
@@ -51,6 +53,15 @@ section.visible {
 }
 /* --------------- End of section styling -------------------- */
 
+/* --------------- Start of nav styling -------------------- */
+.container-fluid {
+    background-color: black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    z-index: 500;
+}
+/* --------------- End of nav styling -------------------- */
+
 /* -------------- Start of title styling ------------------- */
 .title-container {
     font-family:Khula;
@@ -79,3 +90,30 @@ section.visible {
     opacity:0;
 }
 /* -------------- End of title styling ------------------- */
+
+/* -------------- Start of education styling ------------------- */
+.education-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.education-left {
+    background-color: var(--yellow);
+    width: 50%;
+}
+
+.education-right {
+    margin-right: 12px;
+}
+
+.education-logo {
+    height: 300px;
+}
+
+.btn {
+    margin-bottom: 12px;
+}
+
+/* -------------- End of education styling ------------------- */
