@@ -72,7 +72,7 @@ section.visible {
     display:block;
     position:absolute;
     color:white;
-    top:0;
+    top:148px;
     bottom:0;
     left:0;
     right:0;
@@ -134,7 +134,7 @@ section.visible {
     flex-flow: column;
 }
 
-#industry-title {
+.section-title {
     color: white;
 }
 
@@ -165,10 +165,6 @@ section.visible {
     align-items: center;
     display: flex;
     flex-flow: column;
-}
-
-#research-title {
-    color: white;
 }
 
 #research-body {
