@@ -126,3 +126,35 @@ section.visible {
 }
 
 /* -------------- End of education styling ------------------- */
+
+/* -------------- Start of industry styling ------------------- */
+#section-industry {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+
+#industry-title {
+    color: white;
+}
+
+#industry-body {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.industry-caption {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 32px;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.btn-industry {
+    width: 360px;
+}
+
+/* -------------- End of industry styling ------------------- */
