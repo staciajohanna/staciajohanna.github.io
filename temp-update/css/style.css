@@ -197,9 +197,9 @@ section.visible {
     color: var(--dark-green);
     display: flex;
     flex-flow: column;
-    height: 80%;
+    height: 85%;
     justify-content: center;
-    width: 45%;
+    width: 48%;
 }
 
 .course-top {
@@ -218,8 +218,8 @@ section.visible {
     color: white;
     display: flex;
     flex-flow: column;
-    height: 80%;
+    height: 85%;
     justify-content: center;
-    width: 45%;
+    width: 48%;
 }
 /* -------------- End of course project styling ------------------- */
