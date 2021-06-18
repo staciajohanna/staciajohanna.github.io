@@ -181,3 +181,45 @@ section.visible {
     flex-flow: column;
 }
 /* -------------- End of research styling ------------------- */
+
+/* -------------- Start of course project styling ------------------- */
+.course-body {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    height: 100%;
+    margin-top: 12px;
+}
+
+.course-left {
+    align-items: center;
+    background-color: var(--light-blue);
+    color: var(--dark-green);
+    display: flex;
+    flex-flow: column;
+    height: 80%;
+    justify-content: center;
+    width: 45%;
+}
+
+.course-top {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+
+.course-img {
+    margin: 4px;
+}
+
+.course-right {
+    align-items: center;
+    background-color: var(--dark-green);
+    color: white;
+    display: flex;
+    flex-flow: column;
+    height: 80%;
+    justify-content: center;
+    width: 45%;
+}
+/* -------------- End of course project styling ------------------- */
