@@ -352,4 +352,22 @@ section.visible {
     height: 150px;
     width: 320px;
 }
+
+.personal-image {
+    background-image: url("../images/extracurricular/personal.png") !important;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 0;
+    height: 350px;
+    width: 350px;
+}
+
+.personal-hover {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 320px;
+    padding: 20px;
+    width: 320px;
+}
 /* -------------- End of extra styling ------------------- */
