@@ -210,6 +210,7 @@ section.visible {
 
 .course-img {
     margin: 4px;
+    margin-bottom: 12px;
 }
 
 .course-right {
@@ -223,3 +224,104 @@ section.visible {
     width: 48%;
 }
 /* -------------- End of course project styling ------------------- */
+
+/* -------------- Start of extra styling ------------------- */
+.extra-body {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+
+.extra-subbody {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    margin: 12px;
+    width: 100%;
+}
+
+.extra-images {
+    display: flex;
+    flex-flow: column;
+    height: 350px;
+    margin: 12px;
+    width: 350px;
+}
+
+.extra-subimage {
+    display: flex;
+    flex-flow: row;
+}
+
+.single-image {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.single-image:hover .img-hover {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    opacity: 80%;
+}
+
+.img-hover {
+    background-color: white;
+	text-align: center;
+    text-decoration: none;
+	overflow: hidden;
+	opacity: 0;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.hover-text {
+    color: black;
+}
+
+.kca-image {
+    background-image: url("../images/extracurricular/kca-event.jpg") !important;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 0;
+    height: 180px;
+    width: 350px;
+}
+
+.kca-hover {
+	height: 130px;
+    width: 280px;
+}
+
+.lom-image {
+    background-image: url("../images/extracurricular/lom-easter.jpg") !important;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 0;
+    height: 170px;
+    width: 110px;
+}
+
+.lom-hover {
+    height: 150px;
+    width: 90px;
+}
+
+.cpw-image {
+    background-image: url("../images/extracurricular/cpw-1.JPG") !important;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 0;
+    height: 170px;
+    width: 240px;
+}
+
+.cpw-hover {
+    height: 150px;
+    width: 210px;
+}
+/* -------------- End of extra styling ------------------- */
