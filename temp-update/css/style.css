@@ -6,6 +6,7 @@ html {
 
 body {
     background-color: black;
+    overflow-x: hidden;
 }
 
 .scroll-instruction {
@@ -405,3 +406,30 @@ section.visible {
     height: 80%;
 }
 /* -------------- End of skill styling ------------------- */
+
+/* -------------- Start of connect styling ------------------- */
+#connect {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    font-family: "Domine";
+    height: 200px;
+    margin: 20px;
+    width: 100%;
+}
+
+.contact-logo {
+    margin: 16px;
+}
+
+.social {
+    margin: 20px;
+}
+
+.footer {
+    color: #aeaaaa;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+}
+/* -------------- End of connect styling ------------------- */
