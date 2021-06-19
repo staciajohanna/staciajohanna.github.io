@@ -61,6 +61,11 @@ section.visible {
     top: 0; /* Position the navbar at the top of the page */
     z-index: 500;
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
 /* --------------- End of nav styling -------------------- */
 
 /* -------------- Start of title styling ------------------- */
