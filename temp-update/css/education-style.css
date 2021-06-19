@@ -1,0 +1,51 @@
+#section-header {
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.title {
+    font-size: 80px;
+}
+
+.education-degree-left {
+    align-items: center;
+    background-color: var(--yellow);
+    display: flex;
+    flex-flow: column;
+    height: 50%;
+    justify-content: center;
+    width: 50%;
+}
+
+#education-courselist {
+    display: flex;
+    flex-flow: column;
+}
+
+.courselist-top {
+    align-self: flex-start;
+    background-color: var(--brown);
+    color: white;
+    display: flex;
+    flex-flow: row;
+    height: 180px;
+    margin-top: 16px;
+    width: 90%;
+}
+
+.courselist-bottom {
+    align-self: flex-end;
+    background-color: var(--dark-green);
+    color: white;
+    display: flex;
+    flex-flow: row;
+    height: 180px;
+    width: 90%;
+}
+
+.course-group {
+    margin: 16px;
+}
