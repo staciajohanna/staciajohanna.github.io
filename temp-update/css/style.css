@@ -371,3 +371,37 @@ section.visible {
     width: 320px;
 }
 /* -------------- End of extra styling ------------------- */
+
+/* -------------- Start of skill styling ------------------- */
+.skill-body {
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    height: 40%;
+    width: 100%;
+}
+
+.skill-logos-group {
+    margin: 12px;
+    text-align: center;
+}
+
+.skill-logos {
+    margin: 16px;
+    text-decoration: none;
+}
+
+.skill-group {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    font-size: 20px;
+}
+
+.skill-divider {
+    border: solid 1px var(--yellow);
+    height: 80%;
+}
+/* -------------- End of skill styling ------------------- */
