@@ -10,3 +10,60 @@
     font-size: 80px;
     margin-right: 5%;
 }
+
+#extra-teaching {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+.extra-bullet-points {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.extra-images {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+.teaching-container {
+    align-items: center;
+    background-color: var(--brown);
+    display: flex;
+    flex-flow: column;
+    height: 80%;
+    justify-content: center;
+    padding: 28px;
+    width: 90%;
+}
+
+.leadership-container {
+    align-items: center;
+    background-color: var(--yellow);
+    color: black;
+    display: flex;
+    flex-flow: column;
+    height: 95%;
+    padding: 20px;
+    width: 90%;
+}
+
+.personal-container {
+    align-items: center;
+    background-color: var(--dark-green);
+    display: flex;
+    flex-flow: column;
+    height: 80%;
+    justify-content: center;
+    padding: 28px;
+    width: 90%;
+}
+
+.kca-photo {
+    margin: 20px;
+}
