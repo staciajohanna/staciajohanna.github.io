@@ -1,0 +1,14 @@
+.personal-title {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    height: 600px;
+    justify-content: center;
+    width: 100%;
+}
+
+.title {
+    font-size: 60px;
+    margin-right: 10%;
+}
