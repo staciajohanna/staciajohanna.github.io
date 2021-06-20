@@ -10,3 +10,39 @@
     font-size: 80px;
     margin-right: 10%;
 }
+
+.experience-title {
+    font-weight: bold;
+    margin-top: -12px;
+    margin-bottom: 20px;
+}
+
+#experience-industry {
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.industry-desc {
+    align-items: center;
+    background-color: var(--dark-green);
+    color: white;
+    display: flex;
+    flex-flow: column;
+    font-size: 20px;
+    height: 400px;
+    justify-content: center;
+    line-height: 30px;
+    text-align: center;
+    padding: 20px;
+    width: 75%;
+}
+
+.industry-logo-right {
+    margin-right: 20px;
+}
+
+.industry-details {
+    text-align: left;
+}
