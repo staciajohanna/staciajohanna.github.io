@@ -1,7 +1,7 @@
 // Referenced from https://codepen.io/Tbgse/pen/dYaJyJ
 
 // function([string1, string2],target id,[color1,color2])    
-consoleText(['Stacia Johanna'], 'text', ['#d88f38','#a54933','#86B3D1']);
+consoleText(['Stacia Johanna', "Scroll down to begin"], 'text', ['#d88f38','#a54933','#86B3D1']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
