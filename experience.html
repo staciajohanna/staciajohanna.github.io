@@ -1,237 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Stacia Johanna - Experience </title>
-	<meta charset="UTF-8">
-	<meta name="description" content="Stacia Johanna Portfolio">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->   
-	<link href="img/logo.jpg" rel="shortcut icon"/>
+    <title>Experience - Stacia Johanna</title>
+    <meta charset="UTF-8">
 
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <!-- Favicon -->   
+    <link rel="icon" href="images/logo.jpg"/>
 
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/flaticon.css"/>
-	<link rel="stylesheet" href="css/animate.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" href="css/experience.css"/>
+    <!-- JQuery import -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css"/>
-
-
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
+    <link rel="stylesheet" href="css/experience-style.css"/>
 </head>
 <body>
-	<!-- Page Preloder -->
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
-
-	<!-- Header section start -->
-	<header class="header-section sp-pad">
-		<a href = "index.html"> <img src="img/logo.jpg" width="50" height="50"> </a>
-		<div class="nav-switch">
-			<i class="fa fa-bars"></i>
-		</div>
-		<nav class="main-menu">
-			<ul>
-				<li><a href="education.html">Education</a></li>
-				<li><a href="experience.html">Experience</a></li>
-				<li><a href="extracurricular.html">Extracurricular</a></li>
-				<li><a href="skills.html">Skills</a></li>
-				<li><a href="#footer">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
+    <!-- Header section start -->
+	<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img src="images/logo.jpg" width="50" height="50"></a>
+            
+            <form class="d-flex">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./education.html">Education</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./experience.html" id="navbarDropdownExperience" role="button" aria-expanded="false">
+                              Experience
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownExperience">
+                              <li><a class="dropdown-item" href="./experience.html#experience-industry">Industry</a></li>
+                              <li><a class="dropdown-item" href="./experience.html#experience-research">Research</a></li>
+                              <li><a class="dropdown-item" href="./experience.html#experience-datavis">Course Project</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./extracurricular.html" id="navbarDropdownExtra" role="button" aria-expanded="false">
+                                Extracurricular
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownExtra">
+                              <li><a class="dropdown-item" href="./extracurricular.html#extra-leadership">Leadership</a></li>
+                              <li><a class="dropdown-item" href="./extracurricular.html#extra-teaching">Teaching</a></li>
+                              <li><a class="dropdown-item" href="./personal.html">Personal</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./skills.html">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html#connect">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </nav>
 	<!-- Header section end -->
 
+    <!-- Title -->
+    <section id="section-header" class="step visible">
+        <h1 class='title'>
+            <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+            <lord-icon
+                src="https://cdn.lordicon.com/anihkfxp.json"
+                trigger="loop"
+                delay="500"
+                colors="primary:#d1faf0,secondary:#eeca66"
+                style="width:200px;height:200px">
+            </lord-icon>
+            Experience
+        </h1>
+    </section>
 
-	<!-- Page top section start -->
-	<div class="page-top-area set-bg" data-setbg="img/banner/exp-2.jpg">
-		<div class="breadcrumb-area">
-			<a href="index.html">Home</a> / <span>Experience</span>
-		</div>
-	</div>
-	<!-- Page top section end -->
+    <!-- Apple -->
+    <section id="experience-industry" class="step">
+        <div class="industry-desc">
+            <p>
+                <b> Software Engineering Intern </b> 
+                <br> June 2021 - September 2021 || Cupertino, CA (virtual)
+            </p>
+            <h2 class="experience-title"> Apple, Inc. </h2>
+            <div class="industry-details"> 
+                Ongoing internship - TBA
+            </div>
+        </div>
+        <img style="height: 40%; width: 20%;" class="industry-logo-right" src="images/apple-logo.png" alt="Apple logo">
+    </section>
 
-	<section class="portfolio-section">
-		<div class="sp-pad spad">
-			<!-- filter menu -->
-			<ul class="portfolio-filter controls">
-				<li class="control" data-filter="*">All</li>
-				<li class="control" data-filter=".industry">Industry</li>
-				<li class="control" data-filter=".project">Course Projects</li>
-				<li class="control" data-filter=".research">Research</li>
-			</ul>
-		</div>
+    <!-- Twitter -->
+    <section id="experience-industry" class="step">
+        <img style="height: 40%; width: 20%;" class="industry-logo-left" src="images/twitter-logo.png" alt="Twitter logo">
+        <div class="industry-desc">
+            <p>
+                <b> Software Engineering Intern </b> 
+                <br> June 2020 - August 2020 || San Francisco, CA (virtual)
+            </p>
+            <h2 class="experience-title"> Twitter, Inc. </h2>
+            <div class="industry-details"> 
+                <ul>
+                    <li> Designed and developed machine learning models to classify business accounts for promotion purposes using
+                        Python, Tensorflow 2, and Google Cloud Platform (BigQuery and AI Platform Notebook) </li>
+                    <li> Improved model accuracy by 19% from the baseline model by feature engineering and model architecture design</li>
+                    <li> Collaborated with 2 different teams to test and evaluate proposed models</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-		<!-- Start of Industry Section -->
-		<div class="portfolio-warp">
-			<div class="mix industry container-fluid">
-				<div class="intro row">
-					<div class="col-xl-8 intro-text">
-						<span class="sp-sub-title industry-subtitle"> <b> Software Engineering Intern </b> </span>
-						<br><span class="sp-sub-title industry-subtitle"> June 2020 - August 2020 || San Francisco, CA (remote)</span>
-						<h3 class="sp-title industry-title">Twitter, Inc. </h3>
-						<div class="industry-details"> 
-							<ul>
-								<li> Designed and developed machine learning models to classify business accounts for promotion purposes using
-									Python, Tensorflow 2, and Google Cloud Platform (BigQuery and AI Platform Notebook) </li>
-								<li> Improved model accuracy by 19% from the baseline model by feature engineering and model architecture design</li>
-								<li> Collaborated with 2 different teams to test and evaluate proposed models</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-xl-3 offset-xl-1 industry-logo">
-						<figure class="intro-img mt-5 mt-xl-0">
-							<img src="img/twitter-logo.png" alt="">
-						</figure>
-					</div>
-				</div>
-			</div>
-			<div class="horizontal-line"></div>
-			<div class="mix industry container-fluid">
-				<div class="intro row">
-					<div class="col-xl-9 intro-text">
-						<span class="sp-sub-title industry-subtitle"> <b> Engineering Practicum Intern </b> </span>
-						<br><span class="sp-sub-title industry-subtitle"> June 2019 - August 2019 || Sunnyvale, CA</span>
-						<h3 class="sp-title industry-title">Google, Inc. </h3>
-						<div class="industry-details">
-							<ul>
-								<li> Designed and developed an internal front-end tool to systematically visualize Google network model using Angular, HTML, CSS, and Typescript. </li>
-								<li> Developed a back-end service that connects Google networking service with the front-end UI, parses, and simplifies the model using C++ to create a seamless network model browsing experience. </li>
-								<li> Presented the project to over 50 employees at Google Network Infrastructure Intern Poster Session. </li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-xl-2 offset-xl-1 industry-logo">
-						<figure class="intro-img mt-5 mt-xl-0">
-							<img src="img/google-logo.png" alt="">
-						</figure>
-					</div>
-				</div>
-			</div>
-			<!-- End of Industry Section -->
+    <!-- Google -->
+    <section id="experience-industry" class="step">
+        <div class="industry-desc">
+            <p>
+                <b> Engineering Practicum Intern </b> 
+                <br> June 2019 - August 2019 || Sunnyvale, CA
+            </p>
+            <h2 class="experience-title"> Google, Inc. </h2>
+            <div class="industry-details"> 
+                <ul>
+                    <li> Designed and developed an internal front-end tool to systematically visualize Google network model using Angular, HTML, CSS, and Typescript. </li>
+                    <li> Developed a back-end service that connects Google networking service with the front-end UI, parses, and simplifies the model using C++ to create a seamless network model browsing experience. </li>
+                    <li> Presented the project to over 50 employees at Google Network Infrastructure Intern Poster Session. </li>
+                </ul>
+            </div>
+        </div>
+        <img style="height: 40%; width: 18%;" class="industry-logo-right" src="images/google-logo.png" alt="Google logo">
+    </section>
 
-			<!-- Start of Course Projects -->
-			<div id="fritter-exp" class="mix project container-fluid">
-				<div class="intro row">
-					<div class="col-xl-6 intro-text">
-						<span class="sp-sub-title project-subtitle"> <b> 6.170 Software Studio Individual Project </b> </span>
-						<br><span class="sp-sub-title project-subtitle"> Fall 2019 </span>
-						<h3 class="sp-title project-title"> Fritter </h3>
-						<div class="industry-details"> 
-							<b> Topic </b>: Full-stack development
-							<br> <b> Skills used </b>: UI design, Vue, Node.js, HTML, JavaScript
-							<br> ritter is an individual project in course 6.170 Software Studio, where we are implementing class materials of full-stack development. In this project, we are expected to analyse Twitter's concept as an application and redesign the concepts and features. Then, we built the simplified web application from the ground-up based on the redesigned Fritter.
-							<br> Some of the process involved in this project includes concept design, full-stack development, user testing, and redesign and redevelop based on the user's feedback. Also, the color palette of the website helps the platform to become usable for most major type of color blindness.
-						</div>
-					</div>
-					<div class="col-xl-3 offset-xl-1 industry-logo">
-						<figure class="intro-img mt-5 mt-xl-0">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/oGp2oIVAVyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</figure>
-					</div>
-				</div>
-			</div>
-			<div class="horizontal-line"></div>
-			<div id="betahkn-exp" class="mix project container-fluid">
-				<div class="intro row">
-					<div class="col-xl-6 intro-text">
-						<span class="sp-sub-title project-subtitle"> <b> 6.170 Software Studio Final Group Project </b> </span>
-						<br><span class="sp-sub-title project-subtitle"> Fall 2019 </span>
-						<h3 class="sp-title project-title"> BetaHKN </h3>
-						<div class="industry-details"> 
-							<b> Topic </b>: Full-stack development
-							<br> <b> Skills used </b>: UI design, Vue, Node.js, HTML, JavaScript
-							<br> For the final project in 6.170, we could create any web application that can help real-life problems. Our group focuses on improving the currently manual tutoring system of HKN by redesigning the tutor-tutee matching and scheduling system. BetaHKN has 3 different platforms for tutee, tutor, and admin with different features and functionalities.
-							<br> In this project, I focused on designing and implementing platform that handles scheduling and matching between tutors and tutees. The video showed most of my contribution to the project, including making the create request form, voting form, and claiming form. I used the inspiration from when2meet website to develop the drag and select the available time slots.
-						</div>
-					</div>
-					<div class="col-xl-3 offset-xl-1 industry-logo">
-						<figure class="intro-img mt-5 mt-xl-0">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/QwZdb0vTm2w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</figure>
-					</div>
-				</div>
-			</div>
-			<div class="horizontal-line"></div>
-			<div id="ml-strang-exp" class="mix project container-fluid">
-				<div class="intro row pdf-group">
-					<div class="intro-text">
-						<span class="sp-sub-title project-subtitle"> <b>18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning Final Group Project </b> </span>
-						<br><span class="sp-sub-title project-subtitle"> Spring 2020 </span>
-						<h3 class="sp-title project-title"> Comparing Regression Methods for Predicting COVID-19 Response </h3>
-						<div class="industry-details"> 
-							<b> Topic </b>: Machine learning
-							<br> <b> Skills used </b>: Python, Tensorflow, Keras
-							<br> In 18.065, the students can do any project related to any of the class materials or other materials related to linear algebra or statistics. Since our group have many international experience, we are interested in how regression methods that we learned in class can be used to predict how certain factors in different countries may affect their death per capita. The regression methods we use for this project are linear regression, lasso regression, neural networks, and principal component analysis.
-							<br> For this project, my main work focused on neural networks. The relevant parts on the paper are 2.4 Background, 4.3.4 Modeling, 5.3 Result and Analysis. I trained ~80 different neural network models to find the best result based on root mean squared error (RMSE) and tuned different components of the models, such as number of layers and nodes, optimizer, activation functions, etc.
-							<br> The whole paper can be read below.
-						</div>
-					</div>
-					<iframe class="pdf-viewer" src="./img/class-project/18-065.pdf" width="80%" height="500px"></iframe>
-				</div>
-			</div>
-			<!-- End of Course Projects -->
+    <!-- SuperUrop -->
+    <section id="experience-research" class="step">
+        <div class="research-desc">
+            <p>
+                <b> MIT EECS Undergraduate Research and Innovation Scholar (SuperUROP) </b> 
+                <br> September 2020 - May 2021 || Cambridge, MA
+            </p>
+            <h2 class="experience-title"> TypeScript Praxis for Second-Programming-Language Learning </h2>
+            <div style="text-align: justify;" class="industry-details"> 
+                <b>Topic: </b> education technology, programming language learning
+                <br> <b> Skills used: </b> TypeScript, Visual Studio Code Extension
+                <br> <b> Abstract </b>
+                While there are many tutoring platforms for people who are learning a programming language for the first time, there are only a few platforms that help experienced programmers learn a new language. 
+                Expert programmers can learn a new language by themselves through referencing documentation and relating the new language’s concepts to those of the old language. However, unguided knowledge transfer between prior and new languages causes false assumptions. 
+                TypeScript Praxis is a two-part system that consists of a tutor platform for users with a previous background in Python to learn TypeScript and an interactive guide for problem authors to create exercise code for the tutor platform. 
+                The tutor platform provides TypeScript coding exercises in which the problems, hints, and explanations highlight similarities and differences between Python and TypeScript to prevent misconceptions caused by faulty knowledge transfer. 
+                The interactive guide helps problem authors in creating TypeScript code examples by semi-automatically reducing the amount of code acquired from public repositories. 
+                Case studies of the tutor platform show how users can learn TypeScript concepts with the system, while the case studies for the interactive guide demonstrate that it can be used in creating exercise code for a diverse range of TypeScript concepts.
+                <br> <b>To learn more about SuperUROP </b>, visit <a style="color: black;" href="https://superurop.mit.edu/scholars/stacia-johanna/">here</a>.
+            </div>
+        </div>
+        <iframe width="500" height="305" src="https://www.youtube.com/embed/S4YA_VN_YO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
 
-			<!-- Start of Research -->
-			<div id="lsp-urop" class="mix research container-fluid">
-				<div class="intro row">
-					<div class="col-xl-6 intro-text">
-						<span class="sp-sub-title research-subtitle"> <b> Undergraduate Researcher/Game Developer - MIT Teaching Systems Lab </b> </span>
-						<br><span class="sp-sub-title research-subtitle"> June 2018 - August 2018 || Cambridge, MA</span>
-						<h3 class="sp-title research-title">Learning Science Playground </h3>
-						<div class="industry-details"> 
-							<b> Topic </b>: educational game, web development
-							<br> <b> Skills used </b>: HTML, CSS, JavaScript, AirConsole
-							<br> I joined Learning Science Playground project through MIT UROP (Undergraduate Research Opportunities Program). In the project, I collaborated with 7 members to create interactive tools for pre-service teacher education in Woodrow Wilson Academy. Each of us have our own individual projects, in which all of the project are based on the chapters in the book The ABCs of How We Learn by Daniel L. Schwartz, Jessica M. Tsang, and Kristen P. Blair. My project focused on chapter V, which is Visualization. 
-							<br> I built the game from the start, including initial potential user interview, design, development, and weekly testing. I devised and implemented the idea and mechanics of the game, and revised it based on the feedback from the play tester. 
-							<br> The game is inspired from Jackbox games, in which multiple people can use their personal controllers/smartphones as the controller, and have television as the central screen. As seen from the gif, in my game, the central screen is the laptop, while the phones are the controllers. Since I used web platform for my game, any phone that can access the internet can be used, so it is accessible for most people.
-						</div>
-					</div>
-					<div class="col-xl-5 offset-xl-1 industry-logo">
-						<figure class="intro-img mt-5 mt-xl-0">
-							<img src="img/research/chapterv-walkthrough.gif" height="400px" width="600px" alt="The game's walkthrough">
-						</figure>
-					</div>
-				</div>
-			</div>
-			<!-- End of Research -->
-		</div>
-	</section>
+    <!-- TSL -->
+    <section id="experience-research" class="step">
+        <img src="images/research/chapterv-walkthrough.gif" height="400px" width="500px" alt="The game's walkthrough">
+        <div class="research-desc">
+            <p>
+                <b> Undergraduate Researcher/Game Developer - MIT Teaching Systems Lab </b> 
+                <br> June 2018 - August 2018 || Cambridge, MA
+            </p>
+            <h2 class="experience-title"> Learning Science Playground </h2>
+            <div style="text-align: justify;" class="industry-details"> 
+                <b> Topic </b>: educational game, web development
+                <br> <b> Skills used </b>: HTML, CSS, JavaScript, AirConsole
+                <br> I joined Learning Science Playground project through MIT UROP (Undergraduate Research Opportunities Program). In the project, I collaborated with 7 members to create interactive tools for pre-service teacher education in Woodrow Wilson Academy. Each of us have our own individual projects, in which all of the project are based on the chapters in the book The ABCs of How We Learn by Daniel L. Schwartz, Jessica M. Tsang, and Kristen P. Blair. My project focused on chapter V, which is Visualization. 
+                <br> I built the game from the start, including initial potential user interview, design, development, and weekly testing. I devised and implemented the idea and mechanics of the game, and revised it based on the feedback from the play tester. 
+                <br> The game is inspired from Jackbox games, in which multiple people can use their personal controllers/smartphones as the controller, and have television as the central screen. As seen from the gif, in my game, the central screen is the laptop, while the phones are the controllers. Since I used web platform for my game, any phone that can access the internet can be used, so it is accessible for most people.
+            </div>
+        </div>
+    </section>
 
-	<!-- Footer section start -->
-	<footer id="footer" class="footer-section spad">
-		<div class="container text-center">
-			<h2>Connect with me</h2>
-			<div class="social">
-				<a href="https://www.linkedin.com/in/stacia-johanna/" target="_blank"><i class="fa fa-linkedin"></i></a>
-				<a href="https://github.com/staciajohanna" target="_blank"><i class="fa fa-github"></i></a>
-				</br>
+    <!-- the world is watching -->
+    <section id="experience-datavis" class="step">
+        <div class="datavis-desc">
+            <p>
+                <b> 6.859 Interactive Data Visualization Group Project </b> 
+                <br> Spring 2021
+            </p>
+            <h2 class="experience-title"> The World is Watching: US Election 2020 </h2>
+            <div style="text-align: justify;" class="industry-details"> 
+                <b> Topic </b>: data visualization, map visualization, wordcloud, tweets, global
+                <br> <b> Skills used </b>: d3.js, HTML, CSS, JavaScript
+                <br> <b> Link to visualization: </b> <a style="color:black;" href="https://6859-sp21.github.io/a4-theworldiswatching/">https://6859-sp21.github.io/a4-theworldiswatching/</a>
+                <br> <b> Link to Github: </b> <a style="color:black;" href="https://github.com/6859-sp21/a4-theworldiswatching">https://github.com/6859-sp21/a4-theworldiswatching</a>
+                <br> <b> Overview </b>The World is Watching: US Election 2020 tells the story of the world intently watching the 2020 U.S. Election. 
+                Using tens of thousands of tweets from the days leading up to the election, our visualization makes use of tweet and hashtag counts to answer the question, "What does the world think of the 2020 U.S. Election?" 
+                Viewers can explore the dates and hashtags that resulted in the highest (or lowest) number of election-related tweets. 
+                Viewers can also zoom in and focus on a specific country or, conversely, watch as the rest of the world discusses the election. 
+                With this visualization, we hope viewers can gain a global perspective on such a consequential election in modern American history.
+            </div>
+        </div>
+        <img height="300px" width="500px" class="industry-logo-right" src="images/course-project/datavis-theworld.png" alt="The website screenshot">
+    </section>
 
-</br><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    <!-- bird's eye view -->
+    <section id="experience-datavis" class="step">
+        <div class="datavis-desc">
+            <p>
+                <b> 6.859 Interactive Data Visualization Group Project </b> 
+                <br> Spring 2021
+            </p>
+            <h2 class="experience-title"> Bird's Eye View </h2>
+            <div style="text-align: justify;" class="industry-details"> 
+                <b> Topic </b>: data visualization, gamification, map visualization, bar chart, scrollytelling, empathy building
+                <br> <b> Skills used </b>: d3.js, HTML, CSS, JavaScript
+                <br> <b> Link to visualization: </b> <a style="color:black;" href="https://6859-sp21.github.io/final-project-birds-eye-view/">https://6859-sp21.github.io/final-project-birds-eye-view/</a>
+                <br> <b> Link to Github: </b> <a style="color:black;" href="https://github.com/6859-sp21/final-project-birds-eye-view">https://github.com/6859-sp21/final-project-birds-eye-view</a>
+                <br> <b> Paper: </b> <a style="color:black; text-align: left;" href="https://github.com/6859-sp21/final-project-birds-eye-view/blob/main/final/FinalPaper.pdf">https://github.com/6859-sp21/final-project-birds-eye-view/blob/main/final/FinalPaper.pdf</a>
+                <br> <b> Abstract </b> How can we use a visualization to build empathy with people around the world? Our project, Bird’s Eye View, is in the form of a website with scrollytelling elements to convey the stories of the world’s development. Users are able to learn about each country's access to different resources through a guessing game. Finally, they are prompted to reflect on what they just learned from the game to build empathy with other users of the visualization. Through our project, we leverage gamification and personalized reflection to help users learn about international development.
+            </div>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1fcNEe9il_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
 
-			</div>
-		</div>
-	</footer>
-	<!-- Footer section end -->
-	
+    <!-- Fritter -->
+    <section id="experience-web" class="step">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oGp2oIVAVyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="software-desc">
+            <p>
+                <b> 6.170 Software Studio Individual Project </b> 
+                <br> Fall 2019
+            </p>
+            <h2 class="experience-title"> Fritter </h2>
+            <div style="text-align: justify;" class="industry-details"> 
+                <b> Topic </b>: Full-stack development
+                <br> <b> Skills used </b>: UI design, Vue, Node.js, HTML, JavaScript
+                <br> <b> Overview </b>
+                Fritter is an individual project in course 6.170 Software Studio, where we are implementing class materials of full-stack development. In this project, we are expected to analyse Twitter's concept as an application and redesign the concepts and features. Then, we built the simplified web application from the ground-up based on the redesigned Fritter.
+                <br> Some of the process involved in this project includes concept design, full-stack development, user testing, and redesign and redevelop based on the user's feedback. Also, the color palette of the website helps the platform to become usable for most major type of color blindness.
+            </div>
+        </div>
+    </section>
 
-	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/mixitup.min.js"></script>
-	<script src="js/circle-progress.min.js"></script>
-	<script src="js/main.js"></script>
+    <!-- BetaHKN -->
+    <section id="experience-web" class="step">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QwZdb0vTm2w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="software-desc">
+            <p>
+                <b> 6.170 Software Studio Final Group Project </b> 
+                <br> Fall 2019
+            </p>
+            <h2 class="experience-title"> BetaHKN </h2>
+            <div style="text-align: justify;" class="industry-details"> 
+                <b> Topic </b>: Full-stack development
+                <br> <b> Skills used </b>: UI design, Vue, Node.js, HTML, JavaScript
+                <br> <b> Overview </b>
+                For the final project in 6.170, we could create any web application that can help real-life problems. Our group focuses on improving the currently manual tutoring system of HKN by redesigning the tutor-tutee matching and scheduling system. BetaHKN has 3 different platforms for tutee, tutor, and admin with different features and functionalities.
+                <br> In this project, I focused on designing and implementing platform that handles scheduling and matching between tutors and tutees. The video showed most of my contribution to the project, including making the create request form, voting form, and claiming form. I used the inspiration from when2meet website to develop the drag and select the available time slots.
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        &copy; 2021 Stacia Johanna | <a style="color: lightgray; text-decoration: none;" href="https://github.com/staciajohanna/staciajohanna.github.io">Github</a>
+    </div>
+    
+    <!-- Scripts -->
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Animation -->
+    <script src="./javascripts/scrollytelling.js"></script>
 </body>
 </html>
