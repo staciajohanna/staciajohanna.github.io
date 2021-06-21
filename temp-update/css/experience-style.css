@@ -17,7 +17,7 @@
     margin-bottom: 20px;
 }
 
-#experience-industry {
+#experience-industry, #experience-research, #experience-datavis, #experience-web {
     align-items: center;
     display: flex;
     flex-flow: row;
